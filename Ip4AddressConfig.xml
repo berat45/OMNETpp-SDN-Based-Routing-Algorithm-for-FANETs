@@ -1,0 +1,13 @@
+<config>
+	<interface hosts='hostController' address='20.0.0.0' netmask='255.255.255.0'/>
+	<interface hosts='**' address='20.0.0.x' netmask='255.255.255.0'/>
+	<autoroute metric='errorRate'/>
+	
+	<route hosts="hostController" destination="20.0.0.1" netmask="255.255.255.255" gateway="20.0.0.1" interface="wlan0" metric="0"/>
+	<route hosts="hostController" destination="20.0.0.2" netmask="255.255.255.255" gateway="20.0.0.2" interface="wlan0" metric="0"/>
+	<route hosts="hostController" destination="20.0.0.3" netmask="255.255.255.255" gateway="20.0.0.3" interface="wlan0" metric="0"/>
+	<route hosts="hostController" destination="20.0.0.4" netmask="255.255.255.255" gateway="20.0.0.4" interface="wlan0" metric="0"/>
+	<route hosts="hostController" destination="20.0.0.5" netmask="255.255.255.255" gateway="20.0.0.5" interface="wlan0" metric="0"/>
+	<route hosts="hostController" destination="20.0.0.6" netmask="255.255.255.255" gateway="20.0.0.6" interface="wlan0" metric="0"/>
+	
+</config>

@@ -1,0 +1,10 @@
+<movement>
+    <!-- draw a hexagon -->
+    <set speed="30" x="356.184" y="308.448"/>
+    <!--Start with 45degree for linear movement-->
+    <turn angle="45"/>
+    <repeat>
+        <forward d="200"/>
+        <turn angle="180"/>
+    </repeat>
+</movement>

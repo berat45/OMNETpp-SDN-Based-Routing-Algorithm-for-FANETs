@@ -1,0 +1,28 @@
+<environment>
+
+	<object position="min 1550 1100 0" orientation="0 0 0" shape="cuboid 250 100 4"
+            material="concrete" fill-color="203 65 84" opacity="0.8"/>
+    <object position="min 1550 1100 0" orientation="0 0 0" shape="cuboid 50 200 4"
+            material="concrete" fill-color="203 65 84" opacity="0.8"/>
+            
+    <object position="min 1800 1100 0" orientation="0 0 0" shape="cuboid 50 200 4"
+            material="concrete" fill-color="203 65 84" opacity="0.8"/>
+      
+
+	<object position="min 1330 400 0" orientation="0 0 0" shape="cuboid 50 1000 4"
+            material="forest" fill-color="36 186 50" opacity="0.8"/>
+    <object position="min 930 700 0" orientation="0 0 0" shape="cuboid 450 50 4"
+            material="forest" fill-color="36 186 50" opacity="0.8"/> 
+            
+    <object position="min 1870 400 0" orientation="0 0 0" shape="cuboid 50 1000 4"
+            material="forest" fill-color="36 186 50" opacity="0.8"/> 
+    <object position="min 1920  700 0" orientation="0 0 0" shape="cuboid 450 50 4"
+            material="forest" fill-color="36 186 50" opacity="0.8"/>  
+    
+    <object position="min 1600 400 0" orientation="0 0 0" shape="cuboid 50 450 4"
+            material="concrete" fill-color="203 65 84" opacity="0.8"/>   
+    <object position="min 1540 450 0" orientation="0 10 100" shape="cuboid 50 900 4"
+            material="forest" fill-color="36 186 50" opacity="0.8"/> 
+    <object position="min 1660 450 0" orientation="0 10 -100" shape="cuboid 50 900 4"
+            material="forest" fill-color="36 186 50" opacity="0.8"/>   
+</environment>
